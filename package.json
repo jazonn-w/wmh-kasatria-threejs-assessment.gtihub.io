@@ -1,8 +1,8 @@
 {
 	"scripts": {
-    "build": "vite build",
+		"build": "vite build",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"deploy": "index.html"
+		"deploy": "gh-pages -d dist"
 	},
 	"dependencies": {
 		"three": "^0.155.0"
